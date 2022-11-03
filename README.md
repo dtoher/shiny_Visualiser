@@ -23,11 +23,15 @@ https://hwisevis.shinyapps.io/hwiseVis/
 
 ## Installation    
 **The application runs in an R environment and requires R and RStudio to be installed locally.**
-1. Clone/download the repo to your local drive. **Keep the directory structure intact** Unzip if required.    
-2. Open the appFiles directory.
-3. Run the 'runMe.R' script to launch the application script in RStudio.
-4. Click 'RunApp' from the top right of the main pane.
-5. All required packages and dependencies are installed. **This may take some time on first run**
+1. Clone/download the repo to your local drive. **Keep the directory structure intact** Unzip if required.  
+   - you may need to redownload the shapefiles directly as this download seems to be temperamental.
+   - in the camp directory, the file sizes should be 65KB, 169KB and 1KB for the .db, .shp and .shx files respectively
+   - in the infra directory, the file sizes should be 748565KB, 2093KB and 599KB for the .db, .shp and .shx files respectively
+   - in the union directory, the file sizes should be 3594KB, 121665KB and 41KB for the .db, .shp and .shx files respectively
+3. Open the appFiles directory.
+4. Run the 'runMe.R' script to launch the application script in RStudio.
+5. Click 'RunApp' from the top right of the main pane.
+6. All required packages and dependencies are installed. **This may take some time on first run**
 
 ## Usage
 * Data is supplied to the application in the form of a locally stored .xlsx file    
